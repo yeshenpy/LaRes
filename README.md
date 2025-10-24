@@ -4,3 +4,4 @@
 **LaRes is currently the most sample-efficient reward design method.**
 
 TODO: Clean & Update Code
+PS: I will update this code soon, no later than November 11.
