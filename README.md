@@ -5,3 +5,5 @@
 
 TODO: Clean & Update Code
 PS: I will update this code soon, no later than November 11.
+
+Nov 1: I have updated the COLA code, I think I can update LaRes code in these days.
