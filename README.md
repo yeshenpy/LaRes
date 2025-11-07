@@ -111,7 +111,7 @@ The code supports the following environment variables:
 
 By default, the code runs on CPU. 
 ```python
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"  # Use GPU 0
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"  # Use CPU
 ```
 
 ## 🚀 Usage
