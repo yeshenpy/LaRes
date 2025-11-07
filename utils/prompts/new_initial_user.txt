@@ -1,0 +1,78 @@
+The reward function is defined as
+{task_obs_code_string_1}
+
+Based on the return values of the functions mentioned above, some criteria are determined as follows:
+
+{criteria_code_string}
+
+These variables are crucial for constructing your reward function. Note that it only applies to the return values of the functions mentioned above. Therefore, you should not modify the calculation methods for these variables in the functions, as it may disrupt the conditions for evaluation. Instead, focus on leveraging this information to design more efficient reward guidance.
+
+{task_obs_code_string_2}
+
+
+The API definitions for some functions in the reward function above are as follows. You can directly call them to assist you in better programming.
+
+def tolerance(
+        x,
+        bounds=(0.0, 0.0),
+        margin=0.0,
+        sigmoid="gaussian",
+        value_at_margin=_DEFAULT_VALUE_AT_MARGIN,
+):
+    """Returns 1 when x falls inside the bounds, between 0 and 1 otherwise.
+    Returns:
+        A float or numpy array with values between 0.0 and 1.0.
+    Raises:
+        ValueError: If bounds[0] > bounds[1].
+        ValueError: If margin is negative.
+    """
+
+
+def inverse_tolerance(x, bounds=(0.0, 0.0), margin=0.0, sigmoid="reciprocal"):
+    """Returns 0 when x falls inside the bounds, between 1 and 0 otherwise.
+    Returns:
+        A float or numpy array with values between 0.0 and 1.0.
+
+    Raises:
+        ValueError: If bounds[0] > bounds[1].
+        ValueError: If margin is negative.
+    """
+
+
+def rect_prism_tolerance(curr, zero, one):
+    """Computes a reward if curr is inside a rectangular prism region.
+
+    The 3d points curr and zero specify 2 diagonal corners of a rectangular
+    prism that represents the decreasing region.
+
+    one represents the corner of the prism that has a reward of 1.
+    zero represents the diagonal opposite corner of the prism that has a reward
+        of 0.
+    Curr is the point that the prism reward region is being applied for.
+    """
+
+
+def hamacher_product(a, b):
+    """The hamacher (t-norm) product of a and b.
+    computes (a * b) / ((a + b) - (a * b))
+    Raises:
+        ValueError: a and b must range between 0 and 1
+    Returns:
+        float: The hammacher product of a and b
+    """
+
+
+def _sigmoids(x, value_at_1, sigmoid):
+    """Returns 1 when x == 0, between 0 and 1 otherwise.
+    Returns:
+        A numpy array with values between 0.0 and 1.0.
+    Raises:
+        ValueError: If not 0 < value_at_1 < 1, except for linear, cosine and
+        quadratic sigmoids which allow value_at_1 == 0.
+        ValueError: If sigmoid is of an unknown type.
+
+
+Please strictly follow them to rewrite the ”compute_reward“ and "_gripper_caging_reward" above separately, using the keys from the list below as function inputs. However, do not introduce any keys that are not present in the list.
+ {input_dict_string}
+
+Repeatedly verify that all input variables in the function definition exist in the list, ensuring no errors in naming or the introduction of new variables.

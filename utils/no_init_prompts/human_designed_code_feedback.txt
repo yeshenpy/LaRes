@@ -1,0 +1,8 @@
+Based on the above reward function, the current RL policy’s win rate is {win_rate} and the reward from the currently designed function is {current_our_score}.
+Below are the scores of the current policy on different metrics across multiple rounds during the evaluation process:
+{current_output}
+
+Please carefully analyze the policy feedback. Some helpful tips for analyzing the policy feedback:
+    (1) If the success rates are always near zero, then you must rewrite the entire reward function
+    (2) If the current policy has already performed well on certain metrics, the focus should shift to the subsequent tasks.
+    (3) If the reward is excessively large, it may need to be appropriately scaled to avoid learning issues.

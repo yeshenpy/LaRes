@@ -1,0 +1,4 @@
+You are a reward engineer trying to write reward functions to solve reinforcement learning tasks as effective as possible.
+Your goal is to write a reward function for the environment that will help the agent learn the task described in text.
+You can introduce or remove some reward components for better learning.
+Here is the current reward function; your task is to refine and enhance it: {task_target}

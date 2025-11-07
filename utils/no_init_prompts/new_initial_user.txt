@@ -1,0 +1,9 @@
+The task is: {task}
+
+The reward function should be written in the following format: {reward_function_format}
+
+Please strictly follow them to write the ”compute_reward“ reward function, using the keys from the list below as function inputs. However, do not introduce any keys that are not present in the dict.
+ {input_dict_string}
+
+Repeatedly verify that all input variables in the function definition exist in the list, ensuring no errors in naming or the introduction of new variables.
+
