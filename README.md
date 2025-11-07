@@ -1,9 +1,16 @@
+<div align="center">
+
+<img src="LaRes.png" alt="LaRes Logo" width="30%">
+
 # LaRes: Evolutionary Reinforcement Learning with LLM-based Adaptive Reward Search
 
 [![Paper](https://img.shields.io/badge/Paper-OpenReview-blue)](https://openreview.net/pdf?id=jRjvcqtdtA)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-green)](https://github.com/yeshenpy/LaRes)
 
+</div>
+
 **LaRes** is a novel hybrid framework that achieves efficient policy learning through reward function search. It leverages Large Language Models (LLMs) to generate and improve reward function populations, guiding Reinforcement Learning (RL) in policy learning.
+
 
 **LaRes is currently the most sample-efficient reward generation method :trophy: and also the state-of-the-art approach in [Evolutionary Reinforcement Learning (ERL)](https://github.com/yeshenpy/Awesome-Evolutionary-Reinforcement-Learning)**. (Only CPU is enough!)
 
