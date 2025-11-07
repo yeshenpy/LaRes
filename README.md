@@ -556,7 +556,6 @@ For questions or issues, please open an issue on GitHub or contact me at [lipeng
 
 - **MetaWorld**: [https://github.com/rlworkgroup/metaworld](https://github.com/rlworkgroup/metaworld)
 - **EvoRainbow**: [https://github.com/yeshenpy/EvoRainbow](https://github.com/yeshenpy/EvoRainbow)
-- **OpenAI**: For providing the LLM API
 
 ---
 
