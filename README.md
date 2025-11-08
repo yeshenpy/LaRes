@@ -2,7 +2,7 @@
 
 <img src="LaRes.png" alt="LaRes Logo" width="30%">
 
-# LaRes: Evolutionary Reinforcement Learning with LLM-based Adaptive Reward Search
+# (NeurIPS 2025) LaRes: Evolutionary Reinforcement Learning with LLM-based Adaptive Reward Search
 
 [![Paper](https://img.shields.io/badge/Paper-OpenReview-blue)](https://openreview.net/pdf?id=jRjvcqtdtA)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-green)](https://github.com/yeshenpy/LaRes)
