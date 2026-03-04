@@ -80,8 +80,7 @@ If your MetaWorld still has the following bug:
 ```
 'metaworld.envs.mujoco.env_dict' has no attribute 'ALL_V2_ENVIRONMENTS'
 ```
-you can download metaworld.zip and replace the metaworld folder in your project with it.
-
+you can use the provided metaworld and replace the metaworld folder in your project with it.
 
 
 ### 4. Install Additional Dependencies
