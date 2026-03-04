@@ -73,8 +73,16 @@ git checkout 2361d353d0895d5908156aec71341d4ad09dd3c2
 pip install -e .
 cd ..
 ```
-
 **Important**: Make sure to use the specific commit version (`c822f28f582ba1ad49eb5dcf61016566f28003ba`) as different versions of MetaWorld may have incompatible APIs.
+
+If your MetaWorld still has the following bug:
+
+```
+'metaworld.envs.mujoco.env_dict' has no attribute 'ALL_V2_ENVIRONMENTS'
+```
+you can download metaworld.zip and replace the metaworld folder in your project with it.
+
+
 
 ### 4. Install Additional Dependencies
 
